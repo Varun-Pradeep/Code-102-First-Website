@@ -30,17 +30,17 @@ function getCookie(cname) {
 
 let username;
 
-if (getCookie('username') != '') {
+if (getCookie('username') !== '') {
     username = getCookie('username');
 } else {
     username = prompt("What's your name?");
     let descision = prompt("Want a cookie?(y/n)");
 
-    while (descision != "y" && descision != "n") {
+    while (descision !== "y" && descision !== "n") {
         descision = prompt("You can only type \'y\' or \'n\'!");
     }
 
-    if (descision == "y") {
+    if (descision === "y") {
         alert("Great!");
     } else {
         alert("Too bad. Have a cookie anyway.");
