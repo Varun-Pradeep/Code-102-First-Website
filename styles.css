@@ -37,7 +37,7 @@ body {
     /*box-shadow: black 0px 3px 7px;*/
     z-index: 0;
     animation-name: wave;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-delay: calc(var(--index) * 27ms);
@@ -61,4 +61,8 @@ body {
     0% {margin: 20px;}
     50% {margin: -20px;}
     100% {margin: 20px;}
+}
+
+.image-section {
+    margin: 20px;
 }
