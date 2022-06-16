@@ -4,7 +4,6 @@ const root = document.getElementById("root");
 const container = document.getElementById("fun-container");
 
 let numTiles = 100;
-let tiles = new Array(numTiles);
 
 for (let i = 0; i < (numTiles - 1); i++) {
     let tempNode = root.cloneNode(true);
